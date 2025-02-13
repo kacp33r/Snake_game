@@ -1,0 +1,74 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black; /* Czarne tło */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+/* Game container */
+.game-container {
+    text-align: center;
+    position: relative;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.8); /* Zielona poświata */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+.game-header h1 {
+    font-size: 3em;
+    color: #4caf50; /* Zielony */
+    margin-bottom: 10px;
+}
+
+.game-header p {
+    font-size: 1.5em;
+}
+
+/* Game area */
+.game-area {
+    margin-bottom: 20px;
+}
+
+/* Canvas styles */
+#gameCanvas {
+    background-color: #333; /* Ciemnoszare tło dla pola gry */
+    border: 2px solid #4caf50;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+/* Footer and button styles */
+.game-footer {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #4caf50; /* Zielony */
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
+
+.btn:hover {
+    background-color: #388e3c; /* Ciemniejszy zielony po najechaniu */
+}
